@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 209, 170);
+    ;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.form-container {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container input {
+    width: 25rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.form-container button {
+    display: block;
+    width: 51rem;
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.marksheet-card {
+    display: none;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 20px;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.marksheet-card h3 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.marksheet-card p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    text-decoration: underline;
+}
+
+@media (max-width : 1440px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        width: 98%;
+    }
+}
+
+@media (max-width : 1280px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form-container {
+        width: 60%;
+    }
+
+    .marksheet-card {
+        width: 50%;
+    }
+}
+@media (max-width : 1024px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form-container {
+        width: 50%;
+    }
+
+    .marksheet-card {
+        width: 50%;
+    }
+}
+
+@media (max-width : 912px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+
+    .marksheet-card {
+        width: 65%;
+    }
+}
+
+@media (max-width : 820px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+
+    .marksheet-card {
+        width: 65%;
+    }
+}
+
+@media (max-width : 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+
+    .marksheet-card {
+        width: 65%;
+    }
+}
+
+@media (max-width : 768px) {
+    html {
+        font-size: 40%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .marksheet-card {
+        width: 90%;
+    }
+}
+
+@media (max-width : 344px) {
+    html {
+        font-size: 35%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .marksheet-card {
+        width: 90%;
+    }
+}
+
+@media (max-width : 320px) {
+    html {
+        font-size: 35%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .marksheet-card {
+        width: 90%;
+    }
+}

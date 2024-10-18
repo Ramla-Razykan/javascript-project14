@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Marksheet Generator</h1>
+        <h2>Enter Student Information</h2>
+        <div class="form-container">
+            <input type="text" id="studentName" placeholder="Student Name">
+            <input type="text" id="studentId" placeholder="Student ID">
+            <input type="number" id="mathMarks" placeholder="Math Marks">
+            <input type="number" id="englishMarks" placeholder="English Marks">
+            <input type="number" id="urduMarks" placeholder="Urdu Marks">
+            <input type="number" id="scienceMarks" placeholder="Science Marks">
+            <button onclick="generateMarksheet()">Generate Marksheet</button>
+        </div>
+
+        <div class="marksheet-card" id="marksheetCard">
+            <h3>Marksheet</h3>
+            <p id="cardName"></p>
+            <p id="cardId"></p>
+            <p id="cardMath"></p>
+            <p id="cardEnglish"></p>
+            <p id="cardUrdu"></p>
+            <p id="cardScience"></p>
+            <p id="cardTotalObtained"></p>
+            <p id="cardPercentage"></p>
+            <p id="cardGrade"></p>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+
+</html>
